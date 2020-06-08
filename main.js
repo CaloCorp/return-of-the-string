@@ -2,11 +2,46 @@
  * YOUR CODE HERE! *
  *******************/
 
+const yell= function (str){
+return str + '!'
+}
 
+const getFirstCharacter = function (str){
 
+  return str[0]
+}
 
+const getLastCharacter = function (str){
 
+  return str[str.length-1]
+}
+ const getOneCharacter = function (str, num){
 
+  return str[num]
+ }
+
+const getTwoCharacters = function (str, num1, num2){
+
+  return str[num1] + str[num2]
+
+}
+
+const makeCapitalized = function (str){
+
+  return str.toUpperCase()
+}
+ const yellLouder= function (str){
+
+  return str.toUpperCase() + '!!!'
+
+ }
+
+ const getInitials = function (str){
+let character = str.indexOf(' ')
+
+return str[0] + '.' + str[character + 1] + '.'
+
+ }
 /********************************************************************
  * THIS CODE IS FOR INTERNAL USE ONLY. DON'T CHANGE ANYTHING BELOW! *
  ********************************************************************/
